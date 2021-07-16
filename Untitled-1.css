@@ -1,0 +1,70 @@
+.container-5 {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.flex-jack-row-1 {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 400px;
+    color: white;
+    background: darkgreen center;
+}
+
+.flex-jack-row-1 div {
+    border: 2px solid black;
+    padding: 10px;
+    flex: 1;
+}
+
+.flex-jack-row-1 img {
+    margin: 10px;
+    width: auto;
+}
+
+.flex-jack-row-2 {
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    background: darkgreen center;
+}
+
+.flex-jack-row-2 div {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.flex-jack-row-2 button {
+    border: 2px solid black;
+    border-width: 30%;
+    border-spacing: 20%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+th {
+    padding: 20px;
+}
+
+.flex-jack-row-3 {
+    padding: 20px;
+}
